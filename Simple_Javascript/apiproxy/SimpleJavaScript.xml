@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="22" name="SimpleJavaScript">
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+    <CreatedAt>1379023392545</CreatedAt>
+    <CreatedBy>sean.williams@accenture.com</CreatedBy>
+    <Description>The smallest possible Javascript app that can be run on the Apigee Platform. For details, see http://apigee.com/docs/api/content/apigee-javascript-object-model</Description>
+    <DisplayName>SimpleJavaScript</DisplayName>
+    <LastModifiedAt>1379023392545</LastModifiedAt>
+    <LastModifiedBy>sean.williams@accenture.com</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints/>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

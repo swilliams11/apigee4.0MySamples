@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description></Description>
+    <FaultRules/>
+    <Flows/>
+    <PostFlow>
+        <Request/>
+        <Response>
+            <Step>
+                <FaultRules/>
+                <Name>javascriptpolicy</Name>
+            </Step>
+            <Step>
+                <FaultRules/>
+                <Name>XMLtoJSON</Name>
+            </Step>
+            <Step>
+                <FaultRules/>
+                <Name>transform</Name>
+            </Step>
+        </Response>
+    </PostFlow>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <HTTPProxyConnection>
+        <BasePath>/simple-javascript</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>
