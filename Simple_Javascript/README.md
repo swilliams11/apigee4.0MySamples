@@ -1,14 +1,20 @@
 This is provided AS-IS.
 
 There are two items contained in this folder.
+
 1) apiproxy folder - which contains the javascript callout and policies.
+
 2) SimpleJavaScript_rev22_2013_09_12.zip - which is a zipped file of the apiproxy folder and it can be used to deploy to the 4.0 platform.
 
 
 This api uses the yahoo weather api as a target services and performs the following:
+
 1) makes a Javascript callout to add headers to a response
+
 2) converts the XML response to JSON
+
 3) makes a Javascript callout to return a small JSON object
+
 
 For example, step 2 returns the following:
 
